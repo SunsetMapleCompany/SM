@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SMRadioModelStoreContainer" CdmEntityContainer="SMRadioEntities">
+    <EntitySetMapping Name="programlist">
+      <EntityTypeMapping TypeName="SMRadioModel.programlist">
+        <MappingFragment StoreEntitySet="programlist">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="RadioID" ColumnName="RadioID" />
+          <ScalarProperty Name="EnName" ColumnName="EnName" />
+          <ScalarProperty Name="CnName" ColumnName="CnName" />
+          <ScalarProperty Name="PlayWeak" ColumnName="PlayWeak" />
+          <ScalarProperty Name="PlayTime" ColumnName="PlayTime" />
+          <ScalarProperty Name="IsReplay" ColumnName="IsReplay" />
+          <ScalarProperty Name="Anchor" ColumnName="Anchor" />
+          <ScalarProperty Name="AnchorIDS" ColumnName="AnchorIDS" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="radios">
+      <EntityTypeMapping TypeName="SMRadioModel.radios">
+        <MappingFragment StoreEntitySet="radios">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EnName" ColumnName="EnName" />
+          <ScalarProperty Name="CnName" ColumnName="CnName" />
+          <ScalarProperty Name="LinkAddress" ColumnName="LinkAddress" />
+          <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

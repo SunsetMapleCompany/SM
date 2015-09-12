@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Radio.Web", "SMRadio\SM.Radio.Web.csproj", "{C2062C49-398E-4FC6-B264-E739FE1CCB75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Radio.BLL", "SMRadioBLL\SM.Radio.BLL.csproj", "{EB5F9C90-0641-4BBB-AAB7-45CE2828DD60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Radio.DAL", "SMRadioDAL\SM.Radio.DAL.csproj", "{FA59FF03-0A47-4090-A964-17837FE7D00B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Radio.Entity", "SMRadioMODEL\SM.Radio.Entity.csproj", "{40ABB5A5-E09C-42EC-8456-E04E4DE2B7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SM.Radio.IBLL", "SM.Radio.IBLL\SM.Radio.IBLL.csproj", "{2399B263-B706-46BB-BE7E-9EA07B99488F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2062C49-398E-4FC6-B264-E739FE1CCB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2062C49-398E-4FC6-B264-E739FE1CCB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2062C49-398E-4FC6-B264-E739FE1CCB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2062C49-398E-4FC6-B264-E739FE1CCB75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5F9C90-0641-4BBB-AAB7-45CE2828DD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5F9C90-0641-4BBB-AAB7-45CE2828DD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5F9C90-0641-4BBB-AAB7-45CE2828DD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5F9C90-0641-4BBB-AAB7-45CE2828DD60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA59FF03-0A47-4090-A964-17837FE7D00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA59FF03-0A47-4090-A964-17837FE7D00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA59FF03-0A47-4090-A964-17837FE7D00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA59FF03-0A47-4090-A964-17837FE7D00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40ABB5A5-E09C-42EC-8456-E04E4DE2B7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40ABB5A5-E09C-42EC-8456-E04E4DE2B7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40ABB5A5-E09C-42EC-8456-E04E4DE2B7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40ABB5A5-E09C-42EC-8456-E04E4DE2B7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2399B263-B706-46BB-BE7E-9EA07B99488F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2399B263-B706-46BB-BE7E-9EA07B99488F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2399B263-B706-46BB-BE7E-9EA07B99488F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2399B263-B706-46BB-BE7E-9EA07B99488F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\Self\SMRadio\SM.Radio.IBLL\obj\Debug\SM.Radio.IBLL.csprojResolveAssemblyReference.cache
+D:\Self\SMRadio\SM.Radio.IBLL\bin\Debug\SM.Radio.IBLL.dll
+D:\Self\SMRadio\SM.Radio.IBLL\bin\Debug\SM.Radio.IBLL.pdb
+D:\Self\SMRadio\SM.Radio.IBLL\bin\Debug\SM.Radio.Entity.dll
+D:\Self\SMRadio\SM.Radio.IBLL\bin\Debug\SM.Radio.Entity.pdb
+D:\Self\SMRadio\SM.Radio.IBLL\obj\Debug\SM.Radio.IBLL.dll
+D:\Self\SMRadio\SM.Radio.IBLL\obj\Debug\SM.Radio.IBLL.pdb

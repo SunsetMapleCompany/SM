@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMRadioModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityType Name="programlist">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RadioID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EnName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CnName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="PlayWeak" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="PlayTime" Type="Time" />
+    <Property Name="IsReplay" Type="Boolean" />
+    <Property Name="Anchor" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="AnchorIDS" Type="String" MaxLength="1024" FixedLength="false" Unicode="false" />
+    <Property Name="Remarks" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="radios">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EnName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="CnName" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="LinkAddress" Type="String" MaxLength="1024" FixedLength="false" Unicode="false" />
+    <Property Name="RegionID" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+    <Property Name="Remarks" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SMRadioEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="programlist" EntityType="Self.programlist" />
+    <EntitySet Name="radios" EntityType="Self.radios" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,4 @@
+D:\Self\SMRadio\SMRadioMODEL\bin\Debug\SM.Radio.Entity.dll
+D:\Self\SMRadio\SMRadioMODEL\bin\Debug\SM.Radio.Entity.pdb
+D:\Self\SMRadio\SMRadioMODEL\obj\Debug\SM.Radio.Entity.dll
+D:\Self\SMRadio\SMRadioMODEL\obj\Debug\SM.Radio.Entity.pdb

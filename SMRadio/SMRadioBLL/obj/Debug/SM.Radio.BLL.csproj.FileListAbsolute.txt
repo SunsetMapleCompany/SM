@@ -1,0 +1,16 @@
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.BLL.dll
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.BLL.pdb
+D:\Self\SMRadio\SMRadioBLL\obj\Debug\SM.Radio.BLL.dll
+D:\Self\SMRadio\SMRadioBLL\obj\Debug\SM.Radio.BLL.pdb
+D:\Self\SMRadio\SMRadioBLL\obj\Debug\SM.Radio.BLL.csprojResolveAssemblyReference.cache
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.DAL.dll
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.Entity.dll
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\EntityFramework.dll
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.DAL.pdb
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.Entity.pdb
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\EntityFramework.xml
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.BLL.dll.config
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.IBLL.dll
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\SM.Radio.IBLL.pdb
+D:\Self\SMRadio\SMRadioBLL\bin\Debug\EntityFramework.SqlServer.xml

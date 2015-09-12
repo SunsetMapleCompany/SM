@@ -1,0 +1,5 @@
+D:\Self\SMRadio\StreamDataProxy\obj\Debug\StreamData.Core.csprojResolveAssemblyReference.cache
+D:\Self\SMRadio\StreamDataProxy\bin\Debug\StreamData.Core.dll
+D:\Self\SMRadio\StreamDataProxy\bin\Debug\StreamData.Core.pdb
+D:\Self\SMRadio\StreamDataProxy\obj\Debug\StreamData.Core.dll
+D:\Self\SMRadio\StreamDataProxy\obj\Debug\StreamData.Core.pdb
