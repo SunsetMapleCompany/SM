@@ -1,4 +1,0 @@
-D:\Self\SM\SMRadio\StreamDataProxy\ProxyTest\bin\Debug\ProxyTest.exe
-D:\Self\SM\SMRadio\StreamDataProxy\ProxyTest\bin\Debug\ProxyTest.pdb
-D:\Self\SM\SMRadio\StreamDataProxy\ProxyTest\obj\Debug\ProxyTest.exe
-D:\Self\SM\SMRadio\StreamDataProxy\ProxyTest\obj\Debug\ProxyTest.pdb

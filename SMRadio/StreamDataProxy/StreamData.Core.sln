@@ -3,24 +3,42 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamData.Core", "StreamDataProxy\StreamData.Core.csproj", "{E01A6E3E-587B-43FA-B16B-971250308BB6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StreamData.Working", "StreamData.Working\StreamData.Working.vcxproj", "{2EE0ABD6-5C26-4268-9843-44C539174760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyTest", "ProxyTest\ProxyTest.csproj", "{F5AB01B2-2D1A-4798-95CA-9409A652FE5C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicUsageEnvironment", "BasicUsageEnvironment\BasicUsageEnvironment.vcxproj", "{D1FB129C-EBDC-40F4-9674-9DF43A8D5BDC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "groupsock", "groupsock\groupsock.vcxproj", "{48BD4F06-B031-4E19-B0CE-4DFBDC00BD83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liveMedia", "liveMedia\liveMedia.vcxproj", "{0F0165C3-A991-4DCF-AA23-B31B9FBB543F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsageEnvironment", "UsageEnvironment\UsageEnvironment.vcxproj", "{6860163B-D7CA-43CC-9888-0BD59FD9CB91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E01A6E3E-587B-43FA-B16B-971250308BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E01A6E3E-587B-43FA-B16B-971250308BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E01A6E3E-587B-43FA-B16B-971250308BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E01A6E3E-587B-43FA-B16B-971250308BB6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5AB01B2-2D1A-4798-95CA-9409A652FE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5AB01B2-2D1A-4798-95CA-9409A652FE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5AB01B2-2D1A-4798-95CA-9409A652FE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5AB01B2-2D1A-4798-95CA-9409A652FE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE0ABD6-5C26-4268-9843-44C539174760}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EE0ABD6-5C26-4268-9843-44C539174760}.Debug|Win32.Build.0 = Debug|Win32
+		{2EE0ABD6-5C26-4268-9843-44C539174760}.Release|Win32.ActiveCfg = Release|Win32
+		{2EE0ABD6-5C26-4268-9843-44C539174760}.Release|Win32.Build.0 = Release|Win32
+		{D1FB129C-EBDC-40F4-9674-9DF43A8D5BDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D1FB129C-EBDC-40F4-9674-9DF43A8D5BDC}.Debug|Win32.Build.0 = Debug|Win32
+		{D1FB129C-EBDC-40F4-9674-9DF43A8D5BDC}.Release|Win32.ActiveCfg = Release|Win32
+		{D1FB129C-EBDC-40F4-9674-9DF43A8D5BDC}.Release|Win32.Build.0 = Release|Win32
+		{48BD4F06-B031-4E19-B0CE-4DFBDC00BD83}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48BD4F06-B031-4E19-B0CE-4DFBDC00BD83}.Debug|Win32.Build.0 = Debug|Win32
+		{48BD4F06-B031-4E19-B0CE-4DFBDC00BD83}.Release|Win32.ActiveCfg = Release|Win32
+		{48BD4F06-B031-4E19-B0CE-4DFBDC00BD83}.Release|Win32.Build.0 = Release|Win32
+		{0F0165C3-A991-4DCF-AA23-B31B9FBB543F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0F0165C3-A991-4DCF-AA23-B31B9FBB543F}.Debug|Win32.Build.0 = Debug|Win32
+		{0F0165C3-A991-4DCF-AA23-B31B9FBB543F}.Release|Win32.ActiveCfg = Release|Win32
+		{0F0165C3-A991-4DCF-AA23-B31B9FBB543F}.Release|Win32.Build.0 = Release|Win32
+		{6860163B-D7CA-43CC-9888-0BD59FD9CB91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6860163B-D7CA-43CC-9888-0BD59FD9CB91}.Debug|Win32.Build.0 = Debug|Win32
+		{6860163B-D7CA-43CC-9888-0BD59FD9CB91}.Release|Win32.ActiveCfg = Release|Win32
+		{6860163B-D7CA-43CC-9888-0BD59FD9CB91}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
